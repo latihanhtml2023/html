@@ -8,11 +8,16 @@
 </head>
 <body>
     <form action="/order">
+        <div>
+            <input type="radio" name="baju" id="" value="kemeja" checked> <label for="">kemeja</label>
+            <input type="radio" name="baju" id="" value="kaos"> <label for="">kaos</label>
+            <input type="radio" name="baju" id="" value="oblong"> <label for="">oblong</label>
+        </div>
+        <div>
+            <label for="ukuran">Size</label>
+            <select name="ukuran" id="ukuran"></select>
+        </div>
 
-        <label for="">Pilih Baju Yang Kamu Suka</label>
-        <input type="radio" name="baju" id="" value="kemeja" checked> <label for="">kemeja</label>
-        <input type="radio" name="baju" id="" value="kaos"> <label for="">kaos</label>
-        <input type="radio" name="baju" id="" value="oblong"> <label for="">oblong</label>
 
         <button type="submit">ORDER</button>
 
